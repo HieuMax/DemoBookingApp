@@ -1,11 +1,13 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import MapComponent from '@/app/MapComponent';
+import 'react-native-get-random-values';
+import '../global.css'
 
 export default function Index() {
     return (
         <View style={styles.container}>
-            <Text>Hello World!</Text>
+            <Text>Map Function</Text>
             <MapComponent />
         </View>
     );
